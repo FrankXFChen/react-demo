@@ -1,0 +1,142 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+button:disabled{
+  background-color: darkgrey;
+  cursor: not-allowed !important;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+
+input:focus{
+  border-radius:5px;
+  border-color: orangered;
+  /* border-width: 5px; */
+}
+
+.inputContainer {
+  margin:0.5rem;
+  width:40%;
+  display:inline-block;
+  min-width: 215px;
+}
+
+.cl-4 {
+  width: 43%;
+}
+.cl-6 {
+  width: 55%
+}
+
+.pull-right{
+  float: right;
+}
+
+.pull-left{
+  float: left;
+}
+
+label.pull-right{
+  float:right;
+  padding-right: 0.5rem
+}
+
+.headerClass {
+  padding: 0 0.5rem;
+  min-height: 40px;
+}
+
+.listClass {
+  /* border-top:groove; */
+  background-color: white;
+  overflow-y: auto;
+  padding: 0 20%;
+  height: 180px;
+  /* border: solid 1px; */
+  border-radius: 5px;
+  box-shadow:inset 0px 0px 5px 1px #adadb1 
+}
+
+.a-panel{
+  margin: 1% 20%;
+  box-shadow: 0 0.1rem 0.1rem 0.1rem #dad6d6;
+  height:0;
+  padding-bottom: 25%;
+  border-radius: 0.125rem;
+  width:60%;
+}
+
+.listM {
+  margin: 1%;
+  box-shadow: 0 0.1rem 0.1rem 0.1rem #dad6d6;
+  width: 48%;
+  float: left;
+  height:0;
+  padding-bottom: 25%;
+  border-radius: 0.125rem;
+}
+
+.listM_H {
+  margin:1%;
+  width:48%;
+  float:right;
+  height:0;
+  padding-bottom: 25%;
+  box-shadow: 0 0.1rem 0.1rem 0.1rem #dad6d6;
+  border-radius: 0.125rem;
+}
+
+.tagClass {
+  border: solid red 3px;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0 30%;
+    background-color: #fb4d17;
+    color: white;
+}
+
+.editor {
+  background-image: url(../public/icons/editor.png);
+  height: 1.2rem;
+  width: 1.2rem;
+  background-size: 100% 100% ;
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 20%;
+}
+
+.deleter {
+  background-image: url(../public/icons/delete.png);
+  height: 1.25rem;
+  width: 1.25rem;
+  background-size: 100% 100% ;
+  background-color: white;
+  cursor: pointer;
+  display: inline-block;
+}

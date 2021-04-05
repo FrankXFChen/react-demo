@@ -1,0 +1,134 @@
+.flag {
+    background-image: url(../../../public/icons/flag.png);
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100% ;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3rem;
+    cursor: pointer;
+    animation:mymove 0.75s infinite;
+    -webkit-animation:mymove 0.75s infinite;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+
+.flagStatic {
+    background-image: url(../../../public/icons/flag.png);
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100% ;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.heart1Static {
+    background-image: url(../../../public/icons/heart1.png);
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100% ;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3rem;
+    cursor: pointer;
+}
+
+.heart1 {
+    background-image: url(../../../public/icons/heart1.png);
+    height: 5rem;
+    width: 5rem;
+    background-size: 100% 100% ;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3rem;
+    cursor: pointer;
+    animation:heartmove 0.75s infinite;
+    -webkit-animation:heartmove 0.75s infinite;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+
+.heart2 {
+    background-image: url(../../../public/icons/heart2.png);
+    height: 4rem;
+    width: 5rem;
+    background-size: 100% 100% ;
+    background-color: white;
+    display: inline-block;
+    margin-right: 3rem;
+    cursor: pointer;
+    animation:heartmove 0.75s infinite;
+    -webkit-animation:heartmove 0.75s infinite;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+
+.dateContent{
+    display:inline-block;
+    margin-left:1rem;
+    font-size: 3rem;
+}
+
+@keyframes mymove
+{
+    from {transform:rotate(30deg)}
+    to {transform:rotate(-30deg)}
+}
+@-webkit-keyframes mymove /*Safari and Chrome*/
+{
+    from {transform:rotate(30deg)}
+    to {transform:rotate(-30deg)}
+    /* from {width:5rem;height:5rem}
+    to {width:4rem;height:4rem} */
+}
+
+@keyframes heartmove
+{
+    from {transform:scale(1.5,1.5)}
+    to {transform:scale(1,1)}
+}
+@-webkit-keyframes heartmove /*Safari and Chrome*/
+{
+    from {transform:scale(1.5,1.5)}
+    to {transform:scale(1,1)}
+}
+
+@keyframes heartmove2
+{
+    from {transform: skew(10deg, 10deg);}
+    to {transform: skew(-10deg, -10deg);}
+}
+@-webkit-keyframes heartmove2 /*Safari and Chrome*/
+{
+    from {transform: skew(10deg, 10deg);}
+    to {transform: skew(-10deg, -10deg);}
+}
+
+.we{
+    background-image: url(../../../public/icons/we.jpeg);
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right:0;
+    height:850px;
+    width:650px;
+    background-size: 100% 100% ;
+    animation:pictureMove 4s infinite;
+    -webkit-animation:pictureMove 4s infinite;
+    animation-direction:alternate;
+    -webkit-animation-direction:alternate; /* Safari 和 Chrome */
+}
+
+@keyframes pictureMove
+{
+    from {left: 300px;}
+    to {left: -300px}
+}
+@-webkit-keyframes heartmove2 /*Safari and Chrome*/
+{
+    from {left: 300px;}
+    to {left: -300px}
+}

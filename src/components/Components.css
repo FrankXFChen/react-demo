@@ -1,0 +1,70 @@
+.Container {
+    height:0;
+    padding-bottom: 5%;
+}
+
+.Center {
+    text-align: center;
+}
+
+.login_panel {
+    vertical-align: middle;
+    display:inline-block;
+    width: 33.33%;
+    min-width: 360px;
+}
+
+.userIcon{
+    border: solid 1px;
+    border-radius: 1rem;
+    margin: 0.05rem;
+    width: 2rem;
+    background-color: #19bdf3;
+    color: white;
+    cursor: pointer;
+}
+
+.currentRole{
+    color:rgba(255, 115, 0, 0.87);
+}
+
+.right{
+    float:right
+}
+
+.roleList{
+    position: absolute;
+    right: 1rem;
+    background: white;
+    list-style-type: none;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem #d6dad8;
+    padding-left:0;
+}
+
+.roleItem{
+    line-height: 2rem;
+    padding: 0.25rem 1.25rem;
+    text-align: left;
+    cursor: pointer;
+}
+
+.roleItem:hover{
+    background-color: #d6dad8
+}
+
+.roleTag {
+    border-radius: 10px;
+    background-color: #1794fb;
+    color: white;
+    display: inline;
+    margin: 0.1rem;
+}
+
+.userTable{
+    width:100%;
+    margin:0 0.1rem;
+}
+
+.roleTag2 {
+    padding:0.25rem;
+}

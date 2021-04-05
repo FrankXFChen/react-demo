@@ -1,0 +1,164 @@
+.xModalMask{
+    position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #000;
+  opacity: .6;
+  z-index: 9998;
+}
+
+/* .xModalWrap{
+    text-align: center
+} */
+
+.xModalContent{
+    position: fixed;
+    width: 400px;
+    height: 300px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 5px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 9999;
+    box-shadow: inset 0 0 1px 0 #000;
+    animation:modalShow 0.4s;
+    -webkit-animation:modalShow 0.4s;
+}
+
+@keyframes modalShow
+{
+    from {transform: scale(0, 0);}
+    to {transform: scale(1, 1);}
+}
+@-webkit-keyframes modalShow /*Safari and Chrome*/
+{
+    from {transform: scale(0, 0);}
+    to {transform: scale(1, 1);}
+}
+
+.xModalHeader {
+    width: 100%;
+    height: 3rem;
+    line-height: 3rem;
+    /* border-bottom: solid .1rem #d4cfcf; */
+    padding-left: 1rem;
+}
+  
+.xModalBody {
+    width: 100%;
+    height: 200px;
+    /* padding: 0 1rem; */
+    text-align: center;
+    border-top: solid .1rem #d4cfcf;
+    border-bottom: solid .1rem #d4cfcf;
+}
+
+.xModalFooter {
+    width: 100%;
+    height: 4rem;
+    text-align: right;
+}
+
+.closeIcon {
+    background-image: url(../../../public/icons/close.png);
+    background-size: 100% 100% ;
+    background-color: white;
+    float:right;
+    width: 1rem;
+    height: 1rem;
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+}
+
+.title {
+    float: left
+}
+
+button {
+    border-radius: 5px;
+    width: 4rem;
+    margin: .9rem;
+}
+
+.xModalWrap button:hover {
+    box-shadow: 0 0 .2rem .2rem lightgrey
+}
+/*
+tab start
+*/
+.activeClass {
+    color:orange !important;
+    border-bottom: solid 2px orange
+}
+
+.tabUl{
+ padding-inline-start: 1rem
+}
+
+.tabUl li{
+    list-style: none;
+    display:inline-block;
+    line-height: 2rem;
+    height: 1.75rem;
+    margin-right: 1rem;
+    color: gray
+}
+.tabUl li:hover{
+    border-bottom: solid 2px black;
+    color: black;
+    cursor: pointer;
+}
+
+
+.tabBaseLine {
+    position: absolute;
+    background-color: #f5f5f5;
+    bottom:0;
+    height: 2px;
+    width: 100%
+}
+
+.tabWrapper {
+    position: relative;
+    height: 2rem;
+}
+
+/*
+tab end
+*/
+
+/*
+ML select start
+*/
+.selectLabel{
+    width:30%;
+    float:left;
+    text-align: right;
+    line-height: 2.5rem;
+}
+.selectBox{
+    width:65%;
+    float:right;
+}
+
+/*
+ML select end
+*/
+
+.PrimaryButton {
+    background-color: orangered;
+    color: white;
+    font-size: 1rem;
+}
+
+.SecondaryButton {
+    background-color: white;
+    color: orangered;
+    font-size: 1rem;
+}
